@@ -1,0 +1,28 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-servers",
+  "name": "blueonyx",
+  "license": "proprietary",
+  "category": "webhosting",
+  "description": {
+    "name": "BlueOnyx (APIv2)",
+    "tagline": "Go blue and use the popular open source web hosting control panel.",
+    "short": "BlueOnyx is a popular web hosting control panel and traces its roots back to BlueQuartz and the Cobalt RaQs.",
+    "long": "Fully integrated with WHMCS for the best possible experience between web hosting control panel and billing platform.\n\nSupports BlueOnyx 5210R, 5211R and 5212R.\n\n* Automatic Account Creation\n* Automatic Suspension/Termination/Upgrades\n* Email Account Creation\n* Single Sign-On for one-click transition\n\n[Learn more »](https://www.blueonyx.it/api-v2-documentation)"
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "homepage": "https://www.blueonyx.it/",
+    "learn_more": "https://www.blueonyx.it/features",
+    "support_url": "https://www.blueonyx.it/",
+    "docs_url": "https://www.blueonyx.it/api-v2-documentation"
+  },
+  "authors": [
+    {
+      "name": "Solarspeed.net",
+      "homepage": "https://www.solarspeed.net/"
+    }
+  ]
+}

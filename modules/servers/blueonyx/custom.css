@@ -1,0 +1,9 @@
+#btnLoginLinkTrigger i.fas.fa-sign-in {
+    display: none;
+}
+#btnLoginLinkTrigger::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f2f6";
+    margin-right: 5px;
+}
