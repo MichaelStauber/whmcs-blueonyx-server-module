@@ -1,0 +1,27 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build release archive
+        run: ./build.sh
+
+      - name: Upload GitHub Release asset
+        uses: softprops/action-gh-release@v2
+        with:
+          files: whmcs-blueonyx-server-module-*.zip
+          generate_release_notes: true
